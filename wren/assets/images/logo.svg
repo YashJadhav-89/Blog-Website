@@ -1,0 +1,23 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients for coloring -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4e54c8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8f94fb;stop-opacity:1" />
+    </linearGradient>
+    <filter id="f1" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+    </filter>
+  </defs>
+
+  <!-- Background rectangle with gradient -->
+  <rect width="400" height="200" fill="url(#grad1)" />
+
+  <!-- Text "Yash" with shadow effect -->
+  <text x="50%" y="50%" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="80" fill="white" text-anchor="middle" alignment-baseline="middle" filter="url(#f1)">
+    Yash
+  </text>
+  <text x="50%" y="50%" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="80" fill="white" text-anchor="middle" alignment-baseline="middle">
+    Yash
+  </text>
+</svg>
